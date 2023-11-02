@@ -6,6 +6,7 @@ namespace DesignPatterns
 {
     public class InteractableWorldItem : MonoBehaviour
     {
+        [SerializeField]
         public ObtainableItem obtainableItem;
     }
 }
