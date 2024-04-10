@@ -4,13 +4,13 @@ using UnityEngine;
 
 namespace DesignPatterns.VisitorPattern.Example
 {
-    public class DamageBuff : MonoBehaviour, IVisitable
+    public class DefenseBuff : MonoBehaviour, IVisitable
     {
-        public int damage = 0;
+        public int defense = 0;
 
         public void Accept(IVisitor visitor)
         {
-            Debug.Log("Damage increased!");
+            Debug.Log("Defense Increased!");
             visitor.Visit(this);
         }
     }
