@@ -9,7 +9,7 @@ namespace DesignPatterns.MementoPattern
         public Player player;
         public Caretaker caretaker;
 
-        // Save state
+        // Save state8
         void SaveState()
         {
             Memento memento = player.SaveState();
